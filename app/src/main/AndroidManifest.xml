@@ -10,6 +10,30 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Vocabulary" />
+        android:theme="@style/Theme.Vocabulary">
+
+        <!-- Tela Principal: Listas de Vocabulário -->
+        <activity
+            android:name=".ui.activity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Tela Detalhe da Lista: Palavras e Botão de Jogar -->
+        <activity
+            android:name=".ui.activity.ListDetailActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.activity.MainActivity" />
+
+        <!-- Tela do Jogo / Recapitulação Ativa -->
+        <activity
+            android:name=".ui.activity.GameActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
+    </application>
 
 </manifest>
