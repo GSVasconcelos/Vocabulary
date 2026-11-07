@@ -10,7 +10,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/add_word"
-        android:textColor="@color/text_primary"
+        android:textColor="?attr/appTextPrimaryColor"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -26,8 +26,8 @@
             android:id="@+id/etPrimaryText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textCapSentences"
-            android:maxLines="2" />
+            android:inputType="textMultiLine|textCapSentences"
+            android:maxLines="3" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -42,8 +42,8 @@
             android:id="@+id/etAssociationText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textCapSentences"
-            android:maxLines="2" />
+            android:inputType="textMultiLine|textCapSentences"
+            android:maxLines="3" />
     </com.google.android.material.textfield.TextInputLayout>
 
 </LinearLayout>

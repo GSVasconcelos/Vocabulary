@@ -10,6 +10,7 @@ import androidx.lifecycle.MutableLiveData;
 import com.example.vocabulary.data.VocabularyRepository;
 import com.example.vocabulary.data.model.VocabularyItem;
 
+import java.text.Normalizer;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -87,6 +88,15 @@ public class GameViewModel extends AndroidViewModel {
 
         boolean match = cleanedInput.equals(cleanedTarget);
 
+        // Se não bateu exatamente, verifica se bate ignorando diacríticos (ex: "maca" aceita "maçã", "voce" aceita "você")
+        if (!match) {
+            String normInput = stripAccents(cleanedInput);
+            String normTarget = stripAccents(cleanedTarget);
+            if (!normInput.isEmpty() && normInput.equals(normTarget)) {
+                match = true;
+            }
+        }
+
         if (match) {
             score++;
             streak++;
@@ -102,6 +112,12 @@ public class GameViewModel extends AndroidViewModel {
 
         // Atualiza métrica no banco de dados em segundo plano
         repository.recordReviewResult(word.getId(), match);
+    }
+
+    private String stripAccents(String s) {
+        if (s == null) return "";
+        return Normalizer.normalize(s, Normalizer.Form.NFD)
+                .replaceAll("\\p{InCombiningDiacriticalMarks}+", "");
     }
 
     public void nextWord() {

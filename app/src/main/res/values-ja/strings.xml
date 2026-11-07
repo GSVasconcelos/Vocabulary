@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Vocabulary</string>
+    <string name="my_lists">単語帳一覧</string>
+    <string name="add_list">新しい単語帳</string>
+    <string name="list_name_hint">単語帳名（例：英語、漢字、聖句など）</string>
+    <string name="list_desc_hint">説明やカテゴリー（任意）</string>
+    <string name="empty_lists">単語帳がまだありません。\n下の + ボタンをタップして作成しましょう！</string>
+    <string name="empty_words">この単語帳にはまだ単語がありません。\n単語を追加して練習を始めましょう！</string>
+    <string name="add_word">単語を追加</string>
+    <string name="primary_text_hint">主単語 / テキスト（例：House、謝謝、ヨハネ 3:16）</string>
+    <string name="association_text_hint">関連語 / 意味（例：家、ありがとう…）</string>
+    <string name="save">保存</string>
+    <string name="cancel">キャンセル</string>
+    <string name="start_game">シャッフル</string>
+    <string name="check_answer">確認する</string>
+    <string name="next_word">次の単語</string>
+    <string name="finish_game">セッション終了</string>
+    <string name="your_answer_hint">関連する単語を入力…</string>
+    <string name="correct_feedback">すばらしい！正解です！🎉</string>
+    <string name="wrong_feedback">惜しい！不正解です❌</string>
+    <string name="score_label">スコア: %1$d / %2$d</string>
+    <string name="delete">削除</string>
+    <string name="confirm_delete_list">単語帳「%1$s」を削除しますか？含まれる単語はすべて失われます。</string>
+    <string name="confirm_delete_word">この単語帳から「%1$s」を本当に削除しますか？</string>
+    <string name="delete_word_title">単語の削除</string>
+    <string name="delete_list_title">単語帳の削除</string>
+
+    <!-- 設定 -->
+    <string name="settings">設定</string>
+    <string name="appearance_section">外観</string>
+    <string name="theme_title">アプリのテーマ</string>
+    <string name="choose_theme">テーマを選択</string>
+    <string name="theme_light">☀️ ライトモード（スカイブルー＆ホワイト）</string>
+    <string name="theme_dracula">🧛 ドラキュラモード（ダークテーマ）</string>
+    <string name="theme_coffee">☕ コーヒーモード（コーヒー＆クリーム）</string>
+    <string name="theme_light_short">ライトモード</string>
+    <string name="theme_dracula_short">ドラキュラモード（ダーク）</string>
+    <string name="theme_coffee_short">コーヒーモード</string>
+
+    <string name="language_section">言語</string>
+    <string name="language_title">アプリの言語</string>
+    <string name="choose_language">言語を選択</string>
+
+    <string name="about_section">アプリについて</string>
+    <string name="app_description">動的な単語帳とゲーム感覚のアクティブリコールで、語彙力と記憶の定着を促進するアプリです。</string>
+    <string name="version_label">バージョン 1.0</string>
+
+    <!-- 復習 / ゲーム -->
+    <string name="recap_title">復習セッション</string>
+    <string name="primary_word_card_label">主単語 / テキスト</string>
+    <string name="word_progress">%2$d 問中 %1$d 問目</string>
+    <string name="streak_badge">🔥 %1$d 連続正解</string>
+    <string name="expected_answer">正解: %1$s</string>
+    <string name="view_final_result">最終結果を見る</string>
+    <string name="session_completed">セッション完了！🎉</string>
+    <string name="final_score_result">%2$d 単語中 %1$d 単語正解！（%3$d%%）</string>
+    <string name="play_again">シャッフルしてもう一度</string>
+    <string name="back_to_list">単語帳に戻る</string>
+
+    <!-- 通知とトースト -->
+    <string name="toast_list_name_empty">単語帳名を入力してください</string>
+    <string name="toast_fill_both_fields">主単語と関連語の両方を入力してください</string>
+    <string name="toast_add_word_first">復習を始める前に少なくとも1つの単語を追加してください！</string>
+    <string name="toast_invalid_list">無効な単語帳です</string>
+    <string name="word_count_single">1 単語</string>
+    <string name="word_count_multiple">%1$d 単語</string>
+    <string name="review_stats">復習: %1$d 回 | 正解: %2$d 回</string>
+</resources>

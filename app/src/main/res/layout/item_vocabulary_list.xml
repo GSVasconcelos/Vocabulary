@@ -9,9 +9,10 @@
     android:clickable="true"
     android:focusable="true"
     android:foreground="?attr/selectableItemBackground"
+    app:cardBackgroundColor="?attr/appCardBackgroundColor"
     app:cardCornerRadius="16dp"
     app:cardElevation="2dp"
-    app:strokeColor="#E2E8F0"
+    app:strokeColor="?attr/appCardStrokeColor"
     app:strokeWidth="1dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -23,7 +24,7 @@
             android:id="@+id/tvListName"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:textColor="@color/text_primary"
+            android:textColor="?attr/appTextPrimaryColor"
             android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toStartOf="@id/btnDeleteList"
@@ -36,7 +37,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:textColor="@color/text_secondary"
+            android:textColor="?attr/appTextSecondaryColor"
             android:textSize="14sp"
             app:layout_constraintEnd_toStartOf="@id/btnDeleteList"
             app:layout_constraintStart_toStartOf="parent"
@@ -51,7 +52,7 @@
             android:background="@drawable/bg_badge"
             android:paddingHorizontal="10dp"
             android:paddingVertical="4dp"
-            android:textColor="@color/brand_primary"
+            android:textColor="?attr/appBadgeTextColor"
             android:textSize="12sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -68,7 +69,7 @@
             android:src="@android:drawable/ic_menu_delete"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:tint="@color/text_secondary" />
+            app:tint="?attr/appTextSecondaryColor" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

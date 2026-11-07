@@ -1,15 +1,122 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Theme.Vocabulary" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/brand_primary</item>
-        <item name="colorPrimaryVariant">@color/brand_primary_dark</item>
+
+    <!-- Tema Base (Herança Material Light - independente do sistema do celular) -->
+    <style name="Theme.Vocabulary" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Padrão: Modo Claro -->
+        <item name="colorPrimary">@color/light_primary</item>
+        <item name="colorPrimaryVariant">@color/light_primary_dark</item>
         <item name="colorOnPrimary">@color/white</item>
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/brand_secondary</item>
-        <item name="colorOnSecondary">@color/white</item>
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor">@color/brand_primary_dark</item>
-        <item name="android:windowBackground">@color/bg_light</item>
+        <item name="colorSecondary">@color/light_secondary</item>
+        <item name="android:statusBarColor">@color/light_primary_dark</item>
+        <item name="android:windowBackground">@color/light_bg</item>
+
+        <item name="appBackgroundColor">@color/light_bg</item>
+        <item name="appCardBackgroundColor">@color/light_surface</item>
+        <item name="appCardStrokeColor">@color/light_stroke</item>
+        <item name="appTextPrimaryColor">@color/light_text_primary</item>
+        <item name="appTextSecondaryColor">@color/light_text_secondary</item>
+        <item name="appBadgeBackgroundColor">@color/light_badge_bg</item>
+        <item name="appBadgeTextColor">@color/light_badge_text</item>
+        <item name="appToolbarColor">@color/light_primary</item>
+        <item name="appToolbarTextColor">@color/white</item>
+        <item name="appAccentButtonColor">@color/light_secondary</item>
+        <item name="appAccentButtonTextColor">@color/white</item>
+
+        <item name="feedbackSuccessBgColor">@color/light_success_bg</item>
+        <item name="feedbackSuccessStrokeColor">@color/light_success_stroke</item>
+        <item name="feedbackSuccessTextColor">@color/light_success_text</item>
+        <item name="feedbackErrorBgColor">@color/light_error_bg</item>
+        <item name="feedbackErrorStrokeColor">@color/light_error_stroke</item>
+        <item name="feedbackErrorTextColor">@color/light_error_text</item>
     </style>
+
+    <!-- 1. TEMA CLARO: Azul Claro & Branco -->
+    <style name="Theme.Vocabulary.Light" parent="Theme.Vocabulary">
+        <item name="colorPrimary">@color/light_primary</item>
+        <item name="colorPrimaryVariant">@color/light_primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/light_secondary</item>
+        <item name="android:statusBarColor">@color/light_primary_dark</item>
+        <item name="android:windowBackground">@color/light_bg</item>
+
+        <item name="appBackgroundColor">@color/light_bg</item>
+        <item name="appCardBackgroundColor">@color/light_surface</item>
+        <item name="appCardStrokeColor">@color/light_stroke</item>
+        <item name="appTextPrimaryColor">@color/light_text_primary</item>
+        <item name="appTextSecondaryColor">@color/light_text_secondary</item>
+        <item name="appBadgeBackgroundColor">@color/light_badge_bg</item>
+        <item name="appBadgeTextColor">@color/light_badge_text</item>
+        <item name="appToolbarColor">@color/light_primary</item>
+        <item name="appToolbarTextColor">@color/white</item>
+        <item name="appAccentButtonColor">@color/light_secondary</item>
+        <item name="appAccentButtonTextColor">@color/white</item>
+
+        <item name="feedbackSuccessBgColor">@color/light_success_bg</item>
+        <item name="feedbackSuccessStrokeColor">@color/light_success_stroke</item>
+        <item name="feedbackSuccessTextColor">@color/light_success_text</item>
+        <item name="feedbackErrorBgColor">@color/light_error_bg</item>
+        <item name="feedbackErrorStrokeColor">@color/light_error_stroke</item>
+        <item name="feedbackErrorTextColor">@color/light_error_text</item>
+    </style>
+
+    <!-- 2. TEMA DRÁCULA: Dark Theme Oficial -->
+    <style name="Theme.Vocabulary.Dracula" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/dracula_primary</item>
+        <item name="colorPrimaryVariant">@color/dracula_primary_dark</item>
+        <item name="colorOnPrimary">#282A36</item>
+        <item name="colorSecondary">@color/dracula_secondary</item>
+        <item name="android:statusBarColor">@color/dracula_primary_dark</item>
+        <item name="android:windowBackground">@color/dracula_bg</item>
+
+        <item name="appBackgroundColor">@color/dracula_bg</item>
+        <item name="appCardBackgroundColor">@color/dracula_surface</item>
+        <item name="appCardStrokeColor">@color/dracula_stroke</item>
+        <item name="appTextPrimaryColor">@color/dracula_text_primary</item>
+        <item name="appTextSecondaryColor">@color/dracula_text_secondary</item>
+        <item name="appBadgeBackgroundColor">@color/dracula_badge_bg</item>
+        <item name="appBadgeTextColor">@color/dracula_badge_text</item>
+        <item name="appToolbarColor">@color/dracula_primary_dark</item>
+        <item name="appToolbarTextColor">@color/dracula_primary</item>
+        <!-- Botão de embaralhar no Drácula: Roxo suave com texto escuro, confortável à vista -->
+        <item name="appAccentButtonColor">@color/dracula_btn_accent</item>
+        <item name="appAccentButtonTextColor">#282A36</item>
+
+        <!-- Feedback de acerto/erro escuros e suaves no Drácula (sem ofuscar) -->
+        <item name="feedbackSuccessBgColor">@color/dracula_success_bg</item>
+        <item name="feedbackSuccessStrokeColor">@color/dracula_success_stroke</item>
+        <item name="feedbackSuccessTextColor">@color/dracula_success_text</item>
+        <item name="feedbackErrorBgColor">@color/dracula_error_bg</item>
+        <item name="feedbackErrorStrokeColor">@color/dracula_error_stroke</item>
+        <item name="feedbackErrorTextColor">@color/dracula_error_text</item>
+    </style>
+
+    <!-- 3. TEMA CAFÉ & CREME: Warm & Cozy -->
+    <style name="Theme.Vocabulary.Coffee" parent="Theme.Vocabulary">
+        <item name="colorPrimary">@color/coffee_primary</item>
+        <item name="colorPrimaryVariant">@color/coffee_primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/coffee_secondary</item>
+        <item name="android:statusBarColor">@color/coffee_primary_dark</item>
+        <item name="android:windowBackground">@color/coffee_bg</item>
+
+        <item name="appBackgroundColor">@color/coffee_bg</item>
+        <item name="appCardBackgroundColor">@color/coffee_surface</item>
+        <item name="appCardStrokeColor">@color/coffee_stroke</item>
+        <item name="appTextPrimaryColor">@color/coffee_text_primary</item>
+        <item name="appTextSecondaryColor">@color/coffee_text_secondary</item>
+        <item name="appBadgeBackgroundColor">@color/coffee_badge_bg</item>
+        <item name="appBadgeTextColor">@color/coffee_badge_text</item>
+        <item name="appToolbarColor">@color/coffee_primary</item>
+        <item name="appToolbarTextColor">#FFFDF9</item>
+        <item name="appAccentButtonColor">@color/coffee_secondary</item>
+        <item name="appAccentButtonTextColor">@color/white</item>
+
+        <item name="feedbackSuccessBgColor">@color/coffee_success_bg</item>
+        <item name="feedbackSuccessStrokeColor">@color/coffee_success_stroke</item>
+        <item name="feedbackSuccessTextColor">@color/coffee_success_text</item>
+        <item name="feedbackErrorBgColor">@color/coffee_error_bg</item>
+        <item name="feedbackErrorStrokeColor">@color/coffee_error_stroke</item>
+        <item name="feedbackErrorTextColor">@color/coffee_error_text</item>
+    </style>
+
 </resources>

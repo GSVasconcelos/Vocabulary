@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="appBackgroundColor" format="color" />
+    <attr name="appCardBackgroundColor" format="color" />
+    <attr name="appCardStrokeColor" format="color" />
+    <attr name="appTextPrimaryColor" format="color" />
+    <attr name="appTextSecondaryColor" format="color" />
+    <attr name="appBadgeBackgroundColor" format="color" />
+    <attr name="appBadgeTextColor" format="color" />
+    <attr name="appToolbarColor" format="color" />
+    <attr name="appToolbarTextColor" format="color" />
+    <attr name="appAccentButtonColor" format="color" />
+    <attr name="appAccentButtonTextColor" format="color" />
+
+    <!-- Cores dos Cards de Feedback (Acerto e Erro) específicas de cada tema -->
+    <attr name="feedbackSuccessBgColor" format="color" />
+    <attr name="feedbackSuccessStrokeColor" format="color" />
+    <attr name="feedbackSuccessTextColor" format="color" />
+    <attr name="feedbackErrorBgColor" format="color" />
+    <attr name="feedbackErrorStrokeColor" format="color" />
+    <attr name="feedbackErrorTextColor" format="color" />
+</resources>

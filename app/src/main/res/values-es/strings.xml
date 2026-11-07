@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Vocabulary</string>
+    <string name="my_lists">Mis Listas</string>
+    <string name="add_list">Nueva Lista</string>
+    <string name="list_name_hint">Nombre de la lista (ej: Inglés, Mandarín, Versículos)</string>
+    <string name="list_desc_hint">Descripción o categoría (opcional)</string>
+    <string name="empty_lists">No hay listas creadas todavía.\n¡Toca el botón + abajo para empezar!</string>
+    <string name="empty_words">No hay palabras en esta lista.\n¡Añade palabras para empezar a practicar!</string>
+    <string name="add_word">Añadir Palabra</string>
+    <string name="primary_text_hint">Palabra / Texto Principal (ej: House, 谢谢, Jn 3:16)</string>
+    <string name="association_text_hint">Asociación / Significado (ej: Casa, Gracias, ...)</string>
+    <string name="save">Guardar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="start_game">Barajar</string>
+    <string name="check_answer">Comprobar</string>
+    <string name="next_word">Siguiente Palabra</string>
+    <string name="finish_game">Finalizar Sesión</string>
+    <string name="your_answer_hint">Escribe la palabra asociada…</string>
+    <string name="correct_feedback">¡Genial! ¡Has acertado! 🎉</string>
+    <string name="wrong_feedback">¡Casi! ❌</string>
+    <string name="score_label">Puntuación: %1$d / %2$d</string>
+    <string name="delete">Eliminar</string>
+    <string name="confirm_delete_list">¿Eliminar la lista \"%1$s\"? Se perderán todas las palabras que contiene.</string>
+    <string name="confirm_delete_word">¿Seguro que deseas eliminar la palabra \"%1$s\" de esta lista?</string>
+    <string name="delete_word_title">Eliminar Palabra</string>
+    <string name="delete_list_title">Eliminar Lista</string>
+
+    <!-- Configuración -->
+    <string name="settings">Configuración</string>
+    <string name="appearance_section">Apariencia</string>
+    <string name="theme_title">Tema de la Aplicación</string>
+    <string name="choose_theme">Elegir Tema</string>
+    <string name="theme_light">☀️ Modo Claro (Azul Celeste &amp; Blanco)</string>
+    <string name="theme_dracula">🧛 Modo Drácula (Tema Oscuro)</string>
+    <string name="theme_coffee">☕ Modo Café (Café &amp; Crema)</string>
+    <string name="theme_light_short">Modo Claro</string>
+    <string name="theme_dracula_short">Modo Drácula (Oscuro)</string>
+    <string name="theme_coffee_short">Modo Café</string>
+
+    <string name="language_section">Idioma</string>
+    <string name="language_title">Idioma de la Aplicación</string>
+    <string name="choose_language">Elegir Idioma</string>
+
+    <string name="about_section">Acerca de</string>
+    <string name="app_description">Aplicación diseñada para impulsar el vocabulario y la memorización activa mediante listas dinámicas y sesiones gamificadas.</string>
+    <string name="version_label">Versión 1.0</string>
+
+    <!-- Repaso / Juego -->
+    <string name="recap_title">Repaso</string>
+    <string name="primary_word_card_label">Palabra / Texto Principal</string>
+    <string name="word_progress">Palabra %1$d de %2$d</string>
+    <string name="streak_badge">🔥 %1$d seguidas</string>
+    <string name="expected_answer">Respuesta esperada: %1$s</string>
+    <string name="view_final_result">Ver Resultado Final</string>
+    <string name="session_completed">¡Sesión Completada! 🎉</string>
+    <string name="final_score_result">¡Acertaste %1$d de %2$d palabras! (%3$d%%)</string>
+    <string name="play_again">Barajar y Jugar de Nuevo</string>
+    <string name="back_to_list">Volver a la Lista</string>
+
+    <!-- Alertas y Toasts -->
+    <string name="toast_list_name_empty">El nombre de la lista no puede estar vacío</string>
+    <string name="toast_fill_both_fields">Por favor completa tanto la palabra principal como la asociación</string>
+    <string name="toast_add_word_first">¡Añade al menos una palabra antes de iniciar el repaso!</string>
+    <string name="toast_invalid_list">Lista inválida</string>
+    <string name="word_count_single">1 palabra</string>
+    <string name="word_count_multiple">%1$d palabras</string>
+    <string name="review_stats">Repasos: %1$d | Aciertos: %2$d</string>
+</resources>

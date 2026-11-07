@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Vocabulary</string>
+    <string name="my_lists">Meine Listen</string>
+    <string name="add_list">Neue Liste</string>
+    <string name="list_name_hint">Listenname (z. B. Englisch, Mandarin, Verse)</string>
+    <string name="list_desc_hint">Beschreibung oder Kategorie (optional)</string>
+    <string name="empty_lists">Noch keine Listen erstellt.\nTippe unten auf +, um zu beginnen!</string>
+    <string name="empty_words">Noch keine Wörter in dieser Liste.\nFüge Wörter hinzu, um zu üben!</string>
+    <string name="add_word">Wort hinzufügen</string>
+    <string name="primary_text_hint">Hauptwort / Text (z. B. House, 谢谢, Joh 3,16)</string>
+    <string name="association_text_hint">Verknüpfung / Bedeutung (z. B. Haus, Danke, ...)</string>
+    <string name="save">Speichern</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="start_game">Mischen</string>
+    <string name="check_answer">Prüfen</string>
+    <string name="next_word">Nächstes Wort</string>
+    <string name="finish_game">Sitzung beenden</string>
+    <string name="your_answer_hint">Zugehöriges Wort eingeben…</string>
+    <string name="correct_feedback">Hervorragend! Richtig geraten! 🎉</string>
+    <string name="wrong_feedback">Leider nicht ganz richtig! ❌</string>
+    <string name="score_label">Punktestand: %1$d / %2$d</string>
+    <string name="delete">Löschen</string>
+    <string name="confirm_delete_list">Liste \"%1$s\" löschen? Alle darin enthaltenen Wörter gehen verloren.</string>
+    <string name="confirm_delete_word">Möchtest du das Wort \"%1$s\" wirklich aus dieser Liste löschen?</string>
+    <string name="delete_word_title">Wort löschen</string>
+    <string name="delete_list_title">Liste löschen</string>
+
+    <!-- Einstellungen -->
+    <string name="settings">Einstellungen</string>
+    <string name="appearance_section">Erscheinungsbild</string>
+    <string name="theme_title">App-Design</string>
+    <string name="choose_theme">Design auswählen</string>
+    <string name="theme_light">☀️ Heller Modus (Himmelblau &amp; Weiß)</string>
+    <string name="theme_dracula">🧛 Dracula-Modus (Dunkles Design)</string>
+    <string name="theme_coffee">☕ Kaffee-Modus (Kaffee &amp; Creme)</string>
+    <string name="theme_light_short">Heller Modus</string>
+    <string name="theme_dracula_short">Dracula-Modus (Dunkel)</string>
+    <string name="theme_coffee_short">Kaffee-Modus</string>
+
+    <string name="language_section">Sprache</string>
+    <string name="language_title">App-Sprache</string>
+    <string name="choose_language">Sprache auswählen</string>
+
+    <string name="about_section">Über die App</string>
+    <string name="app_description">Eine App zur Förderung des aktiven Wortschatzlernens durch dynamische Listen und spielerische Wiederholungen.</string>
+    <string name="version_label">Version 1.0</string>
+
+    <!-- Wiederholung / Spiel -->
+    <string name="recap_title">Wiederholung</string>
+    <string name="primary_word_card_label">Hauptwort / Text</string>
+    <string name="word_progress">Wort %1$d von %2$d</string>
+    <string name="streak_badge">🔥 %1$d in Folge</string>
+    <string name="expected_answer">Erwartete Antwort: %1$s</string>
+    <string name="view_final_result">Endergebnis anzeigen</string>
+    <string name="session_completed">Sitzung abgeschlossen! 🎉</string>
+    <string name="final_score_result">Du hast %1$d von %2$d Wörtern richtig! (%3$d%%)</string>
+    <string name="play_again">Mischen &amp; erneut spielen</string>
+    <string name="back_to_list">Zurück zur Liste</string>
+
+    <!-- Hinweise und Toasts -->
+    <string name="toast_list_name_empty">Listenname darf nicht leer sein</string>
+    <string name="toast_fill_both_fields">Bitte fülle sowohl Hauptwort als auch Verknüpfung aus</string>
+    <string name="toast_add_word_first">Füge mindestens ein Wort hinzu, bevor du beginnst!</string>
+    <string name="toast_invalid_list">Ungültige Liste</string>
+    <string name="word_count_single">1 Wort</string>
+    <string name="word_count_multiple">%1$d Wörter</string>
+    <string name="review_stats">Wiederholungen: %1$d | Richtig: %2$d</string>
+</resources>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg_light">
+    android:background="?attr/appBackgroundColor">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -16,18 +16,18 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="@color/brand_primary"
+            android:background="?attr/appToolbarColor"
             app:navigationIcon="@android:drawable/ic_menu_close_clear_cancel"
-            app:navigationIconTint="@color/white"
-            app:title="Recapitulação"
-            app:titleTextColor="@color/white" />
+            app:navigationIconTint="?attr/appToolbarTextColor"
+            app:title="@string/recap_title"
+            app:titleTextColor="?attr/appToolbarTextColor" />
 
         <com.google.android.material.progressindicator.LinearProgressIndicator
             android:id="@+id/progressIndicator"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:indicatorColor="@color/teal_200"
-            app:trackColor="@color/brand_primary_dark"
+            app:indicatorColor="?attr/colorPrimary"
+            app:trackColor="?attr/appCardStrokeColor"
             tools:progress="40" />
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -62,7 +62,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:textColor="@color/text_secondary"
+                        android:textColor="?attr/appTextSecondaryColor"
                         android:textSize="14sp"
                         android:textStyle="bold"
                         tools:text="Palavra 3 de 10" />
@@ -74,7 +74,7 @@
                         android:background="@drawable/bg_badge"
                         android:paddingHorizontal="10dp"
                         android:paddingVertical="4dp"
-                        android:textColor="@color/brand_primary"
+                        android:textColor="?attr/appBadgeTextColor"
                         android:textSize="12sp"
                         android:textStyle="bold"
                         tools:text="🔥 3 seguidos" />
@@ -86,10 +86,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    app:cardBackgroundColor="@color/white"
+                    app:cardBackgroundColor="?attr/appCardBackgroundColor"
                     app:cardCornerRadius="20dp"
                     app:cardElevation="3dp"
-                    app:strokeColor="#CBD5E1"
+                    app:strokeColor="?attr/appCardStrokeColor"
                     app:strokeWidth="1dp">
 
                     <LinearLayout
@@ -103,9 +103,9 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Palavra / Texto Principal"
+                            android:text="@string/primary_word_card_label"
                             android:textAllCaps="true"
-                            android:textColor="@color/text_secondary"
+                            android:textColor="?attr/appTextSecondaryColor"
                             android:textSize="11sp"
                             android:textStyle="bold" />
 
@@ -115,7 +115,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="12dp"
                             android:gravity="center"
-                            android:textColor="@color/text_primary"
+                            android:textColor="?attr/appTextPrimaryColor"
                             android:textSize="32sp"
                             android:textStyle="bold"
                             tools:text="House" />
@@ -140,8 +140,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:imeOptions="actionDone"
-                        android:inputType="textCapSentences"
-                        android:maxLines="2" />
+                        android:inputType="textMultiLine|textCapSentences"
+                        android:maxLines="3" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <!-- Botão Verificar -->
@@ -150,9 +150,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="56dp"
                     android:layout_marginTop="16dp"
-                    android:backgroundTint="@color/brand_primary"
+                    android:backgroundTint="?attr/colorPrimary"
                     android:text="@string/check_answer"
-                    android:textColor="@color/white"
+                    android:textColor="?attr/colorOnPrimary"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     app:cornerRadius="14dp" />
@@ -189,7 +189,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
-                            android:textColor="@color/text_primary"
+                            android:textColor="?attr/appTextPrimaryColor"
                             android:textSize="15sp"
                             tools:text="Resposta esperada: Casa" />
 
@@ -198,9 +198,9 @@
                             android:layout_width="match_parent"
                             android:layout_height="52dp"
                             android:layout_marginTop="16dp"
-                            android:backgroundTint="@color/text_primary"
+                            android:backgroundTint="?attr/colorPrimary"
                             android:text="@string/next_word"
-                            android:textColor="@color/white"
+                            android:textColor="?attr/colorOnPrimary"
                             android:textStyle="bold"
                             app:cornerRadius="12dp" />
                     </LinearLayout>
@@ -228,8 +228,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:text="Sessão Concluída!"
-                    android:textColor="@color/text_primary"
+                    android:text="@string/session_completed"
+                    android:textColor="?attr/appTextPrimaryColor"
                     android:textSize="26sp"
                     android:textStyle="bold" />
 
@@ -239,7 +239,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:gravity="center"
-                    android:textColor="@color/text_secondary"
+                    android:textColor="?attr/appTextSecondaryColor"
                     android:textSize="16sp"
                     tools:text="Você acertou 8 de 10 palavras!" />
 
@@ -248,14 +248,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="56dp"
                     android:layout_marginTop="32dp"
-                    android:backgroundTint="@color/brand_primary"
-                    android:text="Embaralhar e Jogar de Novo"
-                    android:textColor="@color/white"
+                    android:backgroundTint="?attr/colorPrimary"
+                    android:text="@string/play_again"
+                    android:textColor="?attr/colorOnPrimary"
                     android:textStyle="bold"
                     app:cornerRadius="14dp"
                     app:icon="@android:drawable/ic_popup_sync"
                     app:iconGravity="textStart"
-                    app:iconTint="@color/white" />
+                    app:iconTint="?attr/colorOnPrimary" />
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btnBackToList"
@@ -263,11 +263,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="56dp"
                     android:layout_marginTop="12dp"
-                    android:text="Voltar para a Lista"
-                    android:textColor="@color/brand_primary"
+                    android:text="@string/back_to_list"
+                    android:textColor="?attr/colorPrimary"
                     android:textStyle="bold"
                     app:cornerRadius="14dp"
-                    app:strokeColor="@color/brand_primary" />
+                    app:strokeColor="?attr/colorPrimary" />
             </LinearLayout>
 
         </LinearLayout>

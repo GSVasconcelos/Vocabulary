@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Vocabulary</string>
+    <string name="my_lists">My Lists</string>
+    <string name="add_list">New List</string>
+    <string name="list_name_hint">List name (e.g., English, Mandarin, Verses)</string>
+    <string name="list_desc_hint">Description or category (optional)</string>
+    <string name="empty_lists">No lists created yet.\nTap the + button below to get started!</string>
+    <string name="empty_words">No words in this list yet.\nAdd words to start practicing!</string>
+    <string name="add_word">Add Word</string>
+    <string name="primary_text_hint">Primary Word/Text (e.g., House, 谢谢, Jn 3:16)</string>
+    <string name="association_text_hint">Association/Meaning (e.g., Casa, Thanks, ...)</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="start_game">Shuffle</string>
+    <string name="check_answer">Check</string>
+    <string name="next_word">Next Word</string>
+    <string name="finish_game">Finish Session</string>
+    <string name="your_answer_hint">Type the associated word…</string>
+    <string name="correct_feedback">Awesome! You got it right! 🎉</string>
+    <string name="wrong_feedback">Not quite right! ❌</string>
+    <string name="score_label">Score: %1$d / %2$d</string>
+    <string name="delete">Delete</string>
+    <string name="confirm_delete_list">Delete the list \"%1$s\"? All words inside it will be lost.</string>
+    <string name="confirm_delete_word">Are you sure you want to delete the word \"%1$s\" from this list?</string>
+    <string name="delete_word_title">Delete Word</string>
+    <string name="delete_list_title">Delete List</string>
+
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="appearance_section">Appearance</string>
+    <string name="theme_title">App Theme</string>
+    <string name="choose_theme">Choose Theme</string>
+    <string name="theme_light">☀️ Light Mode (Sky Blue &amp; White)</string>
+    <string name="theme_dracula">🧛 Dracula Mode (Dark Theme)</string>
+    <string name="theme_coffee">☕ Coffee Mode (Coffee &amp; Cream)</string>
+    <string name="theme_light_short">Light Mode (Sky Blue &amp; White)</string>
+    <string name="theme_dracula_short">Dracula Mode (Dark)</string>
+    <string name="theme_coffee_short">Coffee Mode (Coffee &amp; Cream)</string>
+
+    <string name="language_section">Language</string>
+    <string name="language_title">App Language</string>
+    <string name="choose_language">Choose Language</string>
+
+    <string name="about_section">About</string>
+    <string name="app_description">An app designed to boost vocabulary and active recall using dynamic lists and gamified sessions.</string>
+    <string name="version_label">Version 1.0</string>
+
+    <!-- Quiz / Recall Game -->
+    <string name="recap_title">Recall</string>
+    <string name="primary_word_card_label">Primary Word / Text</string>
+    <string name="word_progress">Word %1$d of %2$d</string>
+    <string name="streak_badge">🔥 %1$d in a row</string>
+    <string name="expected_answer">Expected answer: %1$s</string>
+    <string name="view_final_result">View Final Result</string>
+    <string name="session_completed">Session Completed! 🎉</string>
+    <string name="final_score_result">You got %1$d out of %2$d words right! (%3$d%%)</string>
+    <string name="play_again">Shuffle &amp; Play Again</string>
+    <string name="back_to_list">Back to List</string>
+
+    <!-- Alerts and Toasts -->
+    <string name="toast_list_name_empty">List name cannot be blank</string>
+    <string name="toast_fill_both_fields">Please fill both the primary word and the association</string>
+    <string name="toast_add_word_first">Add at least one word before starting recall!</string>
+    <string name="toast_invalid_list">Invalid list</string>
+    <string name="word_count_single">1 word</string>
+    <string name="word_count_multiple">%1$d words</string>
+    <string name="review_stats">Reviews: %1$d | Correct: %2$d</string>
+</resources>

@@ -11,14 +11,58 @@
     <string name="association_text_hint">Associação/Significado (ex: Casa, Obrigado, ...)</string>
     <string name="save">Salvar</string>
     <string name="cancel">Cancelar</string>
-    <string name="start_game">Recapitular (Embaralhar)</string>
+    <string name="start_game">Embaralhar</string>
     <string name="check_answer">Verificar</string>
     <string name="next_word">Próxima Palavra</string>
     <string name="finish_game">Finalizar Sessão</string>
     <string name="your_answer_hint">Digite a palavra associada…</string>
-    <string name="correct_feedback">Parabéns! Você acertou!</string>
-    <string name="wrong_feedback">Quase lá! A resposta correta era:</string>
+    <string name="correct_feedback">Excelente! Você acertou! 🎉</string>
+    <string name="wrong_feedback">Não foi dessa vez! ❌</string>
     <string name="score_label">Pontuação: %1$d / %2$d</string>
     <string name="delete">Excluir</string>
-    <string name="confirm_delete_list">Deseja excluir esta lista e todas as suas palavras?</string>
+    <string name="confirm_delete_list">Deseja apagar a lista \"%1$s\"? Todas as palavras dela serão perdidas.</string>
+    <string name="confirm_delete_word">Deseja realmente excluir a palavra \"%1$s\" desta lista?</string>
+    <string name="delete_word_title">Excluir Palavra</string>
+    <string name="delete_list_title">Excluir Lista</string>
+
+    <!-- Configurações -->
+    <string name="settings">Configurações</string>
+    <string name="appearance_section">Aparência</string>
+    <string name="theme_title">Tema do Aplicativo</string>
+    <string name="choose_theme">Escolher Tema</string>
+    <string name="theme_light">☀️ Modo Claro (Azul Claro &amp; Branco)</string>
+    <string name="theme_dracula">🧛 Modo Drácula (Dark Theme)</string>
+    <string name="theme_coffee">☕ Modo Café (Café &amp; Creme)</string>
+    <string name="theme_light_short">Modo Claro (Azul &amp; Branco)</string>
+    <string name="theme_dracula_short">Modo Drácula (Dark)</string>
+    <string name="theme_coffee_short">Modo Café (Café &amp; Creme)</string>
+
+    <string name="language_section">Idioma</string>
+    <string name="language_title">Idioma do Aplicativo</string>
+    <string name="choose_language">Escolher Idioma</string>
+
+    <string name="about_section">Sobre</string>
+    <string name="app_description">Aplicativo focado em impulsionar o vocabulário e a memorização ativa através de listas dinâmicas e recapitulação gamificada.</string>
+    <string name="version_label">Versão 1.0</string>
+
+    <!-- Recapitulação / Jogo -->
+    <string name="recap_title">Recapitulação</string>
+    <string name="primary_word_card_label">Palavra / Texto Principal</string>
+    <string name="word_progress">Palavra %1$d de %2$d</string>
+    <string name="streak_badge">🔥 %1$d seguidos</string>
+    <string name="expected_answer">Resposta esperada: %1$s</string>
+    <string name="view_final_result">Ver Resultado Final</string>
+    <string name="session_completed">Sessão Concluída! 🎉</string>
+    <string name="final_score_result">Você acertou %1$d de %2$d palavras! (%3$d%%)</string>
+    <string name="play_again">Embaralhar e Jogar de Novo</string>
+    <string name="back_to_list">Voltar para a Lista</string>
+
+    <!-- Avisos e Toasts -->
+    <string name="toast_list_name_empty">O nome da lista não pode ficar em branco</string>
+    <string name="toast_fill_both_fields">Preencha tanto a palavra principal quanto a associação</string>
+    <string name="toast_add_word_first">Adicione pelo menos uma palavra para começar a recapitulação!</string>
+    <string name="toast_invalid_list">Lista inválida</string>
+    <string name="word_count_single">1 palavra</string>
+    <string name="word_count_multiple">%1$d palavras</string>
+    <string name="review_stats">Revisões: %1$d | Acertos: %2$d</string>
 </resources>

@@ -1,11 +1,13 @@
 package com.example.vocabulary.ui.adapter;
 
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.vocabulary.R;
 import com.example.vocabulary.data.model.VocabularyItem;
 import com.example.vocabulary.databinding.ItemVocabularyWordBinding;
 
@@ -63,7 +65,8 @@ public class VocabularyItemAdapter extends RecyclerView.Adapter<VocabularyItemAd
             binding.tvPrimaryWord.setText(item.getPrimaryText());
             binding.tvAssociationWord.setText(item.getAssociationText());
 
-            String stats = "Revisões: " + item.getReviewCount() + " | Acertos: " + item.getCorrectCount();
+            Context context = binding.getRoot().getContext();
+            String stats = context.getString(R.string.review_stats, item.getReviewCount(), item.getCorrectCount());
             binding.tvWordStats.setText(stats);
 
             binding.btnDeleteWord.setOnClickListener(v -> {

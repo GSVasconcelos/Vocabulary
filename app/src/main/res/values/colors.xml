@@ -1,22 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Utilitários / Comuns -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="correct_green">#16A34A</color>
+    <color name="correct_green_bg">#DCFCE7</color>
+    <color name="wrong_red">#DC2626</color>
+    <color name="wrong_red_bg">#FEE2E2</color>
+
+    <!-- Cores originais do template do Android Studio -->
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
 
-    <!-- Vocabulary App Theme Colors -->
-    <color name="brand_primary">#2563EB</color>
-    <color name="brand_primary_dark">#1D4ED8</color>
-    <color name="brand_secondary">#0D9488</color>
-    <color name="correct_green">#16A34A</color>
-    <color name="correct_green_bg">#DCFCE7</color>
-    <color name="wrong_red">#DC2626</color>
-    <color name="wrong_red_bg">#FEE2E2</color>
-    <color name="bg_light">#F8FAFC</color>
+    <!-- Compatibilidade legada -->
+    <color name="brand_primary">#0284C7</color>
+    <color name="brand_primary_dark">#0369A1</color>
+    <color name="brand_secondary">#0EA5E9</color>
+    <color name="bg_light">#F0F9FF</color>
     <color name="text_primary">#0F172A</color>
     <color name="text_secondary">#64748B</color>
+
+    <!-- 1. TEMA CLARO (Azul Claro & Branco) -->
+    <color name="light_primary">#0284C7</color>
+    <color name="light_primary_dark">#0369A1</color>
+    <color name="light_secondary">#0EA5E9</color>
+    <color name="light_bg">#F0F9FF</color>
+    <color name="light_surface">#FFFFFF</color>
+    <color name="light_stroke">#BAE6FD</color>
+    <color name="light_text_primary">#0F172A</color>
+    <color name="light_text_secondary">#475569</color>
+    <color name="light_badge_bg">#E0F2FE</color>
+    <color name="light_badge_text">#0369A1</color>
+    <color name="light_success_bg">#DCFCE7</color>
+    <color name="light_success_stroke">#22C55E</color>
+    <color name="light_success_text">#15803D</color>
+    <color name="light_error_bg">#FEE2E2</color>
+    <color name="light_error_stroke">#EF4444</color>
+    <color name="light_error_text">#B91C1C</color>
+
+    <!-- 2. TEMA DRÁCULA (Dark Theme Oficial) -->
+    <color name="dracula_primary">#BD93F9</color>        <!-- Roxo Drácula -->
+    <color name="dracula_primary_dark">#191A21</color>   <!-- Status bar e Toolbar escura -->
+    <color name="dracula_secondary">#8BE9FD</color>      <!-- Ciano Drácula -->
+    <color name="dracula_btn_accent">#BD93F9</color>     <!-- Botão de embaralhar em Roxo Drácula (confortável à vista) -->
+    <color name="dracula_bg">#282A36</color>             <!-- Fundo oficial Drácula -->
+    <color name="dracula_surface">#44475A</color>        <!-- Card cinza azulado escuro (Current line) -->
+    <color name="dracula_stroke">#6272A4</color>         <!-- Borda roxo acinzentado -->
+    <color name="dracula_text_primary">#F8F8F2</color>   <!-- Texto claro Drácula -->
+    <color name="dracula_text_secondary">#A9B7D1</color> <!-- Texto secundário suave -->
+    <color name="dracula_badge_bg">#383A59</color>       <!-- Badge Drácula -->
+    <color name="dracula_badge_text">#8BE9FD</color>     <!-- Texto do badge em ciano -->
+    <color name="dracula_success_bg">#1B3B2B</color>     <!-- Fundo verde floresta escuro suave -->
+    <color name="dracula_success_stroke">#50FA7B</color> <!-- Borda verde neon Drácula -->
+    <color name="dracula_success_text">#50FA7B</color>   <!-- Texto verde neon Drácula -->
+    <color name="dracula_error_bg">#3B1E28</color>       <!-- Fundo vinho escuro suave -->
+    <color name="dracula_error_stroke">#FF5555</color>   <!-- Borda vermelho Drácula -->
+    <color name="dracula_error_text">#FF5555</color>     <!-- Texto vermelho Drácula -->
+
+    <!-- 3. TEMA CAFÉ & CREME (Warm & Cozy) -->
+    <color name="coffee_primary">#4A2E1B</color>         <!-- Marrom café espresso -->
+    <color name="coffee_primary_dark">#2B1708</color>    <!-- Café torrado escuro -->
+    <color name="coffee_secondary">#B87333</color>       <!-- Caramelo acobreado -->
+    <color name="coffee_bg">#F7F2EC</color>              <!-- Creme quente aveludado -->
+    <color name="coffee_surface">#FFFDF9</color>         <!-- Branco marfim/creme para cards -->
+    <color name="coffee_stroke">#DECBB9</color>          <!-- Borda cor de cappuccino -->
+    <color name="coffee_text_primary">#2D1B0E</color>    <!-- Marrom café escuro -->
+    <color name="coffee_text_secondary">#7A5C4D</color>  <!-- Marrom secundário -->
+    <color name="coffee_badge_bg">#EADCCF</color>        <!-- Badge café com leite -->
+    <color name="coffee_badge_text">#4A2E1B</color>      <!-- Texto do badge em café -->
+    <color name="coffee_success_bg">#E6EFE6</color>
+    <color name="coffee_success_stroke">#5C8C56</color>
+    <color name="coffee_success_text">#2B5526</color>
+    <color name="coffee_error_bg">#F7EAE6</color>
+    <color name="coffee_error_stroke">#C65D46</color>
+    <color name="coffee_error_text">#7A2818</color>
 </resources>

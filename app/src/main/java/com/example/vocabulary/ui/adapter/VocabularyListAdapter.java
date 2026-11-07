@@ -1,5 +1,6 @@
 package com.example.vocabulary.ui.adapter;
 
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -7,6 +8,7 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.vocabulary.R;
 import com.example.vocabulary.data.model.VocabularyListWithCount;
 import com.example.vocabulary.databinding.ItemVocabularyListBinding;
 
@@ -71,7 +73,10 @@ public class VocabularyListAdapter extends RecyclerView.Adapter<VocabularyListAd
                 binding.tvListDescription.setVisibility(View.GONE);
             }
 
-            String countLabel = item.getItemCount() == 1 ? "1 palavra" : item.getItemCount() + " palavras";
+            Context context = binding.getRoot().getContext();
+            String countLabel = item.getItemCount() == 1
+                    ? context.getString(R.string.word_count_single)
+                    : context.getString(R.string.word_count_multiple, item.getItemCount());
             binding.tvItemCount.setText(countLabel);
 
             binding.getRoot().setOnClickListener(v -> {

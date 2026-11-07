@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Vocabulary</string>
+    <string name="my_lists">我的词表</string>
+    <string name="add_list">新建词表</string>
+    <string name="list_name_hint">词表名称（例如：英语、汉字、经文）</string>
+    <string name="list_desc_hint">描述或分类（可选）</string>
+    <string name="empty_lists">暂无词表。\n点击下方 + 按钮开始创建！</string>
+    <string name="empty_words">词表中尚无词汇。\n添加词汇开始学习吧！</string>
+    <string name="add_word">添加词汇</string>
+    <string name="primary_text_hint">主词 / 提示词（例如：House、谢谢、约3:16）</string>
+    <string name="association_text_hint">关联词 / 释义（例如：房子、Thank you…）</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="start_game">随机打乱</string>
+    <string name="check_answer">检查</string>
+    <string name="next_word">下一个</string>
+    <string name="finish_game">结束本轮</string>
+    <string name="your_answer_hint">输入关联词…</string>
+    <string name="correct_feedback">太棒了！回答正确！🎉</string>
+    <string name="wrong_feedback">差一点就对了！❌</string>
+    <string name="score_label">得分：%1$d / %2$d</string>
+    <string name="delete">删除</string>
+    <string name="confirm_delete_list">确定要删除词表“%1$s”吗？其中的所有词汇都将丢失。</string>
+    <string name="confirm_delete_word">确定要从词表中删除词汇“%1$s”吗？</string>
+    <string name="delete_word_title">删除词汇</string>
+    <string name="delete_list_title">删除词表</string>
+
+    <!-- 设置 -->
+    <string name="settings">设置</string>
+    <string name="appearance_section">外观</string>
+    <string name="theme_title">应用主题</string>
+    <string name="choose_theme">选择主题</string>
+    <string name="theme_light">☀️ 浅色模式（天蓝与白）</string>
+    <string name="theme_dracula">🧛 德古拉模式（深色主题）</string>
+    <string name="theme_coffee">☕ 咖啡模式（咖啡与奶油）</string>
+    <string name="theme_light_short">浅色模式</string>
+    <string name="theme_dracula_short">德古拉模式（深色）</string>
+    <string name="theme_coffee_short">咖啡模式</string>
+
+    <string name="language_section">语言</string>
+    <string name="language_title">应用语言</string>
+    <string name="choose_language">选择语言</string>
+
+    <string name="about_section">关于</string>
+    <string name="app_description">一款通过动态自定义词表和趣味化主动回忆，帮助提高词汇量与记忆力的学习应用。</string>
+    <string name="version_label">版本 1.0</string>
+
+    <!-- 复习 / 游戏 -->
+    <string name="recap_title">复习回忆</string>
+    <string name="primary_word_card_label">主词 / 提示词</string>
+    <string name="word_progress">第 %1$d 个，共 %2$d 个</string>
+    <string name="streak_badge">🔥 连续答对 %1$d 题</string>
+    <string name="expected_answer">正确答案是：%1$s</string>
+    <string name="view_final_result">查看最终结果</string>
+    <string name="session_completed">本轮复习完成！🎉</string>
+    <string name="final_score_result">你答对了 %1$d / %2$d 个词汇！（%3$d%%）</string>
+    <string name="play_again">打乱并再练一次</string>
+    <string name="back_to_list">返回词表</string>
+
+    <!-- 提示与弹窗 -->
+    <string name="toast_list_name_empty">词表名称不能为空</string>
+    <string name="toast_fill_both_fields">请同时填写主词和关联释义</string>
+    <string name="toast_add_word_first">请至少添加一个词汇后再开始复习！</string>
+    <string name="toast_invalid_list">无效词表</string>
+    <string name="word_count_single">1 个词汇</string>
+    <string name="word_count_multiple">%1$d 个词汇</string>
+    <string name="review_stats">复习：%1$d 次 | 正确：%2$d 次</string>
+</resources>
