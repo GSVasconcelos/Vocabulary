@@ -1,4 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- O app agora utiliza o ThemeManager interno, sem herdar do sistema -->
-    <style name="Theme.Vocabulary" parent="Theme.Vocabulary.Light" />
+    <!-- Herda do Base.Theme.Vocabulary para garantir que todos os atributos customizados existam,
+         mesmo que o ThemeManager mude o tema depois. -->
+    <style name="Theme.Vocabulary" parent="Base.Theme.Vocabulary" />
 </resources>

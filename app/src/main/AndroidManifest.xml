@@ -12,35 +12,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Vocabulary">
 
-        <!-- Tela Principal: Listas de Vocabulário -->
         <activity
             android:name=".ui.activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
+        </activity> <!-- Tela Detalhe da Lista: Palavras e Botão de Jogar -->
 
-        <!-- Tela Detalhe da Lista: Palavras e Botão de Jogar -->
         <activity
             android:name=".ui.activity.ListDetailActivity"
             android:exported="false"
-            android:parentActivityName=".ui.activity.MainActivity" />
-
-        <!-- Tela do Jogo / Recapitulação Ativa -->
+            android:parentActivityName=".ui.activity.MainActivity" /> <!-- Tela do Jogo / Recapitulação Ativa -->
         <activity
             android:name=".ui.activity.GameActivity"
             android:exported="false"
-            android:windowSoftInputMode="adjustResize" />
-
-        <!-- Tela de Configurações (Tema e Idioma) -->
+            android:windowSoftInputMode="adjustResize" /> <!-- Tela de Configurações (Tema e Idioma) -->
         <activity
             android:name=".ui.activity.SettingsActivity"
             android:exported="false"
-            android:parentActivityName=".ui.activity.MainActivity" />
-
-        <!-- Suporte para persistência de idioma por app (AndroidX) -->
+            android:parentActivityName=".ui.activity.MainActivity" /> <!-- Suporte para persistência de idioma por app (AndroidX) -->
         <service
             android:name="androidx.appcompat.app.AppLocalesMetadataHolderService"
             android:enabled="false"
@@ -49,7 +42,6 @@
                 android:name="autoStoreLocales"
                 android:value="true" />
         </service>
-
     </application>
 
 </manifest>
